@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C5DB71261EB6EDFC0025D51D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DB71251EB6EDFC0025D51D /* main.m */; };
+		C5DB71291EB6EDFC0025D51D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DB71281EB6EDFC0025D51D /* AppDelegate.m */; };
+		C5DB712C1EB6EDFC0025D51D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DB712B1EB6EDFC0025D51D /* ViewController.m */; };
+		C5DB712F1EB6EDFC0025D51D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5DB712D1EB6EDFC0025D51D /* Main.storyboard */; };
+		C5DB71311EB6EDFC0025D51D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5DB71301EB6EDFC0025D51D /* Assets.xcassets */; };
+		C5DB71341EB6EDFC0025D51D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5DB71321EB6EDFC0025D51D /* LaunchScreen.storyboard */; };
+		C5DB713F1EB6EDFC0025D51D /* FEReativeCocoaDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DB713E1EB6EDFC0025D51D /* FEReativeCocoaDemoTests.m */; };
+		C5DB714A1EB6EDFC0025D51D /* FEReativeCocoaDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DB71491EB6EDFC0025D51D /* FEReativeCocoaDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5DB713B1EB6EDFC0025D51D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5DB71191EB6EDFC0025D51D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5DB71201EB6EDFC0025D51D;
+			remoteInfo = FEReativeCocoaDemo;
+		};
+		C5DB71461EB6EDFC0025D51D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5DB71191EB6EDFC0025D51D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5DB71201EB6EDFC0025D51D;
+			remoteInfo = FEReativeCocoaDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C5DB71211EB6EDFC0025D51D /* FEReativeCocoaDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FEReativeCocoaDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5DB71251EB6EDFC0025D51D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C5DB71271EB6EDFC0025D51D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C5DB71281EB6EDFC0025D51D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C5DB712A1EB6EDFC0025D51D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C5DB712B1EB6EDFC0025D51D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C5DB712E1EB6EDFC0025D51D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C5DB71301EB6EDFC0025D51D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5DB71331EB6EDFC0025D51D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C5DB71351EB6EDFC0025D51D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5DB713A1EB6EDFC0025D51D /* FEReativeCocoaDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FEReativeCocoaDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5DB713E1EB6EDFC0025D51D /* FEReativeCocoaDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FEReativeCocoaDemoTests.m; sourceTree = "<group>"; };
+		C5DB71401EB6EDFC0025D51D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5DB71451EB6EDFC0025D51D /* FEReativeCocoaDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FEReativeCocoaDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5DB71491EB6EDFC0025D51D /* FEReativeCocoaDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FEReativeCocoaDemoUITests.m; sourceTree = "<group>"; };
+		C5DB714B1EB6EDFC0025D51D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5DB711E1EB6EDFC0025D51D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5DB71371EB6EDFC0025D51D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5DB71421EB6EDFC0025D51D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5DB71181EB6EDFC0025D51D = {
+			isa = PBXGroup;
+			children = (
+				C5DB71231EB6EDFC0025D51D /* FEReativeCocoaDemo */,
+				C5DB713D1EB6EDFC0025D51D /* FEReativeCocoaDemoTests */,
+				C5DB71481EB6EDFC0025D51D /* FEReativeCocoaDemoUITests */,
+				C5DB71221EB6EDFC0025D51D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5DB71221EB6EDFC0025D51D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5DB71211EB6EDFC0025D51D /* FEReativeCocoaDemo.app */,
+				C5DB713A1EB6EDFC0025D51D /* FEReativeCocoaDemoTests.xctest */,
+				C5DB71451EB6EDFC0025D51D /* FEReativeCocoaDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5DB71231EB6EDFC0025D51D /* FEReativeCocoaDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C5DB71271EB6EDFC0025D51D /* AppDelegate.h */,
+				C5DB71281EB6EDFC0025D51D /* AppDelegate.m */,
+				C5DB712A1EB6EDFC0025D51D /* ViewController.h */,
+				C5DB712B1EB6EDFC0025D51D /* ViewController.m */,
+				C5DB712D1EB6EDFC0025D51D /* Main.storyboard */,
+				C5DB71301EB6EDFC0025D51D /* Assets.xcassets */,
+				C5DB71321EB6EDFC0025D51D /* LaunchScreen.storyboard */,
+				C5DB71351EB6EDFC0025D51D /* Info.plist */,
+				C5DB71241EB6EDFC0025D51D /* Supporting Files */,
+			);
+			path = FEReativeCocoaDemo;
+			sourceTree = "<group>";
+		};
+		C5DB71241EB6EDFC0025D51D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5DB71251EB6EDFC0025D51D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C5DB713D1EB6EDFC0025D51D /* FEReativeCocoaDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C5DB713E1EB6EDFC0025D51D /* FEReativeCocoaDemoTests.m */,
+				C5DB71401EB6EDFC0025D51D /* Info.plist */,
+			);
+			path = FEReativeCocoaDemoTests;
+			sourceTree = "<group>";
+		};
+		C5DB71481EB6EDFC0025D51D /* FEReativeCocoaDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C5DB71491EB6EDFC0025D51D /* FEReativeCocoaDemoUITests.m */,
+				C5DB714B1EB6EDFC0025D51D /* Info.plist */,
+			);
+			path = FEReativeCocoaDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5DB71201EB6EDFC0025D51D /* FEReativeCocoaDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5DB714E1EB6EDFC0025D51D /* Build configuration list for PBXNativeTarget "FEReativeCocoaDemo" */;
+			buildPhases = (
+				C5DB711D1EB6EDFC0025D51D /* Sources */,
+				C5DB711E1EB6EDFC0025D51D /* Frameworks */,
+				C5DB711F1EB6EDFC0025D51D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FEReativeCocoaDemo;
+			productName = FEReativeCocoaDemo;
+			productReference = C5DB71211EB6EDFC0025D51D /* FEReativeCocoaDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5DB71391EB6EDFC0025D51D /* FEReativeCocoaDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5DB71511EB6EDFC0025D51D /* Build configuration list for PBXNativeTarget "FEReativeCocoaDemoTests" */;
+			buildPhases = (
+				C5DB71361EB6EDFC0025D51D /* Sources */,
+				C5DB71371EB6EDFC0025D51D /* Frameworks */,
+				C5DB71381EB6EDFC0025D51D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5DB713C1EB6EDFC0025D51D /* PBXTargetDependency */,
+			);
+			name = FEReativeCocoaDemoTests;
+			productName = FEReativeCocoaDemoTests;
+			productReference = C5DB713A1EB6EDFC0025D51D /* FEReativeCocoaDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C5DB71441EB6EDFC0025D51D /* FEReativeCocoaDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5DB71541EB6EDFC0025D51D /* Build configuration list for PBXNativeTarget "FEReativeCocoaDemoUITests" */;
+			buildPhases = (
+				C5DB71411EB6EDFC0025D51D /* Sources */,
+				C5DB71421EB6EDFC0025D51D /* Frameworks */,
+				C5DB71431EB6EDFC0025D51D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5DB71471EB6EDFC0025D51D /* PBXTargetDependency */,
+			);
+			name = FEReativeCocoaDemoUITests;
+			productName = FEReativeCocoaDemoUITests;
+			productReference = C5DB71451EB6EDFC0025D51D /* FEReativeCocoaDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5DB71191EB6EDFC0025D51D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = FlyElephant;
+				TargetAttributes = {
+					C5DB71201EB6EDFC0025D51D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					C5DB71391EB6EDFC0025D51D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C5DB71201EB6EDFC0025D51D;
+					};
+					C5DB71441EB6EDFC0025D51D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C5DB71201EB6EDFC0025D51D;
+					};
+				};
+			};
+			buildConfigurationList = C5DB711C1EB6EDFC0025D51D /* Build configuration list for PBXProject "FEReativeCocoaDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5DB71181EB6EDFC0025D51D;
+			productRefGroup = C5DB71221EB6EDFC0025D51D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5DB71201EB6EDFC0025D51D /* FEReativeCocoaDemo */,
+				C5DB71391EB6EDFC0025D51D /* FEReativeCocoaDemoTests */,
+				C5DB71441EB6EDFC0025D51D /* FEReativeCocoaDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5DB711F1EB6EDFC0025D51D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5DB71341EB6EDFC0025D51D /* LaunchScreen.storyboard in Resources */,
+				C5DB71311EB6EDFC0025D51D /* Assets.xcassets in Resources */,
+				C5DB712F1EB6EDFC0025D51D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5DB71381EB6EDFC0025D51D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5DB71431EB6EDFC0025D51D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5DB711D1EB6EDFC0025D51D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5DB712C1EB6EDFC0025D51D /* ViewController.m in Sources */,
+				C5DB71291EB6EDFC0025D51D /* AppDelegate.m in Sources */,
+				C5DB71261EB6EDFC0025D51D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5DB71361EB6EDFC0025D51D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5DB713F1EB6EDFC0025D51D /* FEReativeCocoaDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5DB71411EB6EDFC0025D51D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5DB714A1EB6EDFC0025D51D /* FEReativeCocoaDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5DB713C1EB6EDFC0025D51D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5DB71201EB6EDFC0025D51D /* FEReativeCocoaDemo */;
+			targetProxy = C5DB713B1EB6EDFC0025D51D /* PBXContainerItemProxy */;
+		};
+		C5DB71471EB6EDFC0025D51D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5DB71201EB6EDFC0025D51D /* FEReativeCocoaDemo */;
+			targetProxy = C5DB71461EB6EDFC0025D51D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C5DB712D1EB6EDFC0025D51D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5DB712E1EB6EDFC0025D51D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C5DB71321EB6EDFC0025D51D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5DB71331EB6EDFC0025D51D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5DB714C1EB6EDFC0025D51D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C5DB714D1EB6EDFC0025D51D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5DB714F1EB6EDFC0025D51D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FEReativeCocoaDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com-SmallElephant.FEReativeCocoaDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C5DB71501EB6EDFC0025D51D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FEReativeCocoaDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com-SmallElephant.FEReativeCocoaDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C5DB71521EB6EDFC0025D51D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FEReativeCocoaDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com-SmallElephant.FEReativeCocoaDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FEReativeCocoaDemo.app/FEReativeCocoaDemo";
+			};
+			name = Debug;
+		};
+		C5DB71531EB6EDFC0025D51D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FEReativeCocoaDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com-SmallElephant.FEReativeCocoaDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FEReativeCocoaDemo.app/FEReativeCocoaDemo";
+			};
+			name = Release;
+		};
+		C5DB71551EB6EDFC0025D51D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FEReativeCocoaDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com-SmallElephant.FEReativeCocoaDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FEReativeCocoaDemo;
+			};
+			name = Debug;
+		};
+		C5DB71561EB6EDFC0025D51D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FEReativeCocoaDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com-SmallElephant.FEReativeCocoaDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FEReativeCocoaDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5DB711C1EB6EDFC0025D51D /* Build configuration list for PBXProject "FEReativeCocoaDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5DB714C1EB6EDFC0025D51D /* Debug */,
+				C5DB714D1EB6EDFC0025D51D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5DB714E1EB6EDFC0025D51D /* Build configuration list for PBXNativeTarget "FEReativeCocoaDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5DB714F1EB6EDFC0025D51D /* Debug */,
+				C5DB71501EB6EDFC0025D51D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C5DB71511EB6EDFC0025D51D /* Build configuration list for PBXNativeTarget "FEReativeCocoaDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5DB71521EB6EDFC0025D51D /* Debug */,
+				C5DB71531EB6EDFC0025D51D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C5DB71541EB6EDFC0025D51D /* Build configuration list for PBXNativeTarget "FEReativeCocoaDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5DB71551EB6EDFC0025D51D /* Debug */,
+				C5DB71561EB6EDFC0025D51D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5DB71191EB6EDFC0025D51D /* Project object */;
+}
