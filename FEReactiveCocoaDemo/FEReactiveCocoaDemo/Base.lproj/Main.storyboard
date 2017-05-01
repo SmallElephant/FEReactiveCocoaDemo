@@ -42,7 +42,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pcn-JM-sLA">
                                 <rect key="frame" x="139" y="291" width="96" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="FlyElephant"/>
                                 <connections>
                                     <action selector="courseAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SmC-yr-1FV"/>
                                 </connections>

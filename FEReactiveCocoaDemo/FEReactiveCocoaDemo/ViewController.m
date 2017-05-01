@@ -132,7 +132,7 @@
     self.textDelegate = [[RACDelegateProxy alloc] initWithProtocol:@protocol(UITextFieldDelegate)];
     [[self.textDelegate rac_signalForSelector:@selector(textFieldShouldReturn:)] subscribeNext:^(id x) {
         @strongify(self);
-        NSLog(@"代理执行");
+        NSLog(@"FlyElephant---代理执行");
         [self.passWordTextField becomeFirstResponder];
     }];
     self.textField.delegate = (id<UITextFieldDelegate>)self.textDelegate;
