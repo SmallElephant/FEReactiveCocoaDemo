@@ -16,6 +16,7 @@
 		C5DB71731EB6F2DF0025D51D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5DB71711EB6F2DF0025D51D /* LaunchScreen.storyboard */; };
 		C5DB717E1EB6F2E00025D51D /* FEReactiveCocoaDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DB717D1EB6F2E00025D51D /* FEReactiveCocoaDemoTests.m */; };
 		C5DB71891EB6F2E00025D51D /* FEReactiveCocoaDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DB71881EB6F2E00025D51D /* FEReactiveCocoaDemoUITests.m */; };
+		C5DB71991EB701360025D51D /* Course.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DB71981EB701360025D51D /* Course.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		C5DB71841EB6F2E00025D51D /* FEReactiveCocoaDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FEReactiveCocoaDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5DB71881EB6F2E00025D51D /* FEReactiveCocoaDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FEReactiveCocoaDemoUITests.m; sourceTree = "<group>"; };
 		C5DB718A1EB6F2E00025D51D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5DB71971EB701360025D51D /* Course.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Course.h; sourceTree = "<group>"; };
+		C5DB71981EB701360025D51D /* Course.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Course.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +133,7 @@
 				C5DB71691EB6F2DF0025D51D /* ViewController.h */,
 				C5DB716A1EB6F2DF0025D51D /* ViewController.m */,
 				C5DB716C1EB6F2DF0025D51D /* Main.storyboard */,
+				C5DB71961EB701000025D51D /* Model */,
 				C5DB716F1EB6F2DF0025D51D /* Assets.xcassets */,
 				C5DB71711EB6F2DF0025D51D /* LaunchScreen.storyboard */,
 				C5DB71741EB6F2DF0025D51D /* Info.plist */,
@@ -162,6 +166,15 @@
 				C5DB718A1EB6F2E00025D51D /* Info.plist */,
 			);
 			path = FEReactiveCocoaDemoUITests;
+			sourceTree = "<group>";
+		};
+		C5DB71961EB701000025D51D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C5DB71971EB701360025D51D /* Course.h */,
+				C5DB71981EB701360025D51D /* Course.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -348,6 +361,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5DB71991EB701360025D51D /* Course.m in Sources */,
 				C5DB716B1EB6F2DF0025D51D /* ViewController.m in Sources */,
 				C5DB71681EB6F2DF0025D51D /* AppDelegate.m in Sources */,
 				C5DB71651EB6F2DF0025D51D /* main.m in Sources */,
@@ -582,6 +596,7 @@
 				C5DB718F1EB6F2E00025D51D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C5DB71901EB6F2E00025D51D /* Build configuration list for PBXNativeTarget "FEReactiveCocoaDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -590,6 +605,7 @@
 				C5DB71921EB6F2E00025D51D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C5DB71931EB6F2E00025D51D /* Build configuration list for PBXNativeTarget "FEReactiveCocoaDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -598,6 +614,7 @@
 				C5DB71951EB6F2E00025D51D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
